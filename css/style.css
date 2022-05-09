@@ -8,17 +8,49 @@
 /* HEADER */
 header {
     height: 80px;
-    background-color: lightblue;
+    background-color: black;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+li {
+    background-color: grey;
+    color: white;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 5%;
 }
 
 /* MAIN */
 main {
     height: calc(100vh - 200px);
-    background-color: bisque;
+    background-color: black;
+    overflow-y: auto;
 }
-
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.card {
+    position: relative;
+    margin: 5px;
+}
+.card h4 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 /* FOOTER */
 footer {
     height: 120px;
-    background-color: black;
+    background-color: lightblue;
 }
