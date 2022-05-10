@@ -86,7 +86,7 @@ footer li {
 }
 ul a {
     display: flex;
-    background-color: lightgrey;
+    background-color: #4a4a4a;
     height: 100%;
     align-items: center;
     color: red;
